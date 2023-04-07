@@ -20,7 +20,12 @@ ASCII Art Banner Maker is a Python program that allows users to input any text t
 ```
 Now run the setup.py to download the required packages to run
 
+Step 1
 > now open it in your terminal
+```bash
+ cd ASCII-Banner-Maker
+```
+Step 2
 > for windows
 ```bash
   python setup.py
