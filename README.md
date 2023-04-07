@@ -16,7 +16,8 @@ ASCII Art Banner Maker is a Python program that allows users to input any text t
 ```
 ## Use
 >First Gitclone the repo in your systeam
-```bash    
+```bash
+    git clone https://github.com/Subhodip1307/ASCII-Banner-Maker.git
 ```
 Now run the setup.py to download the required packages to run
 
