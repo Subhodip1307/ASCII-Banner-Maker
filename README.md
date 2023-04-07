@@ -15,7 +15,7 @@ ASCII Art Banner Maker is a Python program that allows users to input any text t
     Python 3
 ```
 ## Use
->First Gitclone the repo in your systeam
+>First Git clone the repo in your systeam
 ```bash
     git clone https://github.com/Subhodip1307/ASCII-Banner-Maker.git
 ```
@@ -39,11 +39,11 @@ Now lets Run the Main file
 
 > for windows
 ```bash
-  python Code_genatros.py -n <type your banner> -c <Number's fo colors you want to use> -f <give a file name without extention to save the code> 
+  python Code_genatros.py -n <text for banner> -c <Number's fo colors you want to use> -f <give a file name without extention to save the code> 
 ```
 >for Linux
 ```bash
-   python3 Code_genatros.py -n <type your banner> -c <Number's fo colors you want to use> -f <give a file name without extention to save the code> 
+   python3 Code_genatros.py -n <text for banner> -c <Number's fo colors you want to use> -f <give a file name without extention to save the code> 
 ```
 
 ## Explanation of Commands of the code
