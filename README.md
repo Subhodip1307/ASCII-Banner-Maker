@@ -39,11 +39,11 @@ Now lets Run the Main file
 
 > for windows
 ```bash
-  python Code genatros.py -n <type your banner> -c <Number's fo colors you want to use> -f <give a file name without extention to save the code> 
+  python Code_genatros.py -n <type your banner> -c <Number's fo colors you want to use> -f <give a file name without extention to save the code> 
 ```
 >for Linux
 ```bash
-   python3 Code genatros.py -n <type your banner> -c <Number's fo colors you want to use> -f <give a file name without extention to save the code> 
+   python3 Code_genatros.py -n <type your banner> -c <Number's fo colors you want to use> -f <give a file name without extention to save the code> 
 ```
 
 ## Explanation of Commands of the code
@@ -56,7 +56,69 @@ Now lets Run the Main file
 
 > -f              (it's optional command) type here the file name where you want to save the code if you don't give any name it will save as banner.p
 
+
+## Color Codes
+
+Available color options are:
+
+Index    DEEP COLORS     |   LIGHT COLORS
+
+0         RED   |   LIGHTRED
+
+1       GREEN   |  LIGHTGREEN
+
+2        BLUE   |  LIGHTBLUE
+
+3       WHITE   |  LIGHTWHITE
+
+4      YELLOW   |  LIGHTYELLOW
+
+5     MAGENTA   |  LIGHTMAGENTA
+
+6        CYAN   |  LIGHTCYAN
+
+7       BLACK   | LIGHTBLACK
+
+- There are two types of color combinations deep color and light color and Indexes also provied 
+
+- suppose you want to use deep Red , Deep Yellow and Light Red in your banner, to do that
+
+>d0 
+
+d, stands for deep color and then 0 shows the index, mean deep Red
+
+>d4 
+
+(d, stands for deep color, you can also use "D" insated of "d" and then 4 shows the index, mean deep yellow)
+
+>l0 
+
+(l, stands for light color, you can also use "L" insated of "l"  and then 0 shows the index, mean light red)
+
 ## Examples
 > The Example will be shown in windows but you can use it in linux in the same way just replace python to python3
 
+-After running setup.py file
 
+```bash
+  python Code_genatros.py -n example -c 2 -f myfile 
+```
+- So here we are creating a banner of "example" with 2 colors and the code result will store in myfile.py
+
+![image](https://user-images.githubusercontent.com/111901004/230647500-c34e7179-07e7-4ca0-a253-6493114de1ea.png)
+
+- So it's askfor selecting 2 colorcodes , in this case we will use Deep red and light Green so the color code will be
+
+> D0
+
+> L1
+
+- After putting two values one by one now the code will save in myfile.py
+
+![image](https://user-images.githubusercontent.com/111901004/230648834-f9cf5b07-d9bf-4e85-9993-141e1931709a.png)
+
+- now we just have to run myfile.py to check the results
+
+```bash
+    python myfile.py
+```
