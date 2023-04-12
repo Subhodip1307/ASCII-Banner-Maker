@@ -88,7 +88,7 @@ print(colord_banner)
         print()
         print(f"You have for request for {requirments.c} color combination")
         for i in range(requirments.c):
-            print(f"enter required color index, example: for deep-red color type- d0")
+            print(f"enter required color index, example: for deep-red color type- d0 or D0, for light red color type- l0 or L0")
             color=input(f"Enter no-{i+1} color:- ")
             color=color.lower()
             banner_color.append(color)
